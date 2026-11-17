@@ -1,4 +1,4 @@
-# Contains Duplicate II (LeetCode 219) - Sliding Window
+# Contains Duplicate II (LeetCode 219) - Sliding window (fixed size)
 # Approach: Keep a set holding at most the last k numbers (the window).
 #           Before checking nums[right], drop nums[left] once the window would
 #           span more than k indices. If nums[right] is already in the set,
